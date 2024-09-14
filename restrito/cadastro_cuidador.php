@@ -9,24 +9,23 @@ date_default_timezone_set('America/Sao_Paulo');
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>ADOPT PET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
+    <title>ADOPT PET</title>
+
     <style>
-      /* Custom Navbar */
 
       html, body {
         height: 100%;
         margin: 0;
         display: flex;
         flex-direction: column;
-        background-image: url('restrito/img/wallpaper1.png'); /* Substitua pelo caminho da sua imagem */
+        background-image: url('img/wallpaper1.png'); /* Substitua pelo caminho da sua imagem */
         background-size: cover; /* Faz com que a imagem cubra a tela inteira */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
@@ -43,65 +42,6 @@ date_default_timezone_set('America/Sao_Paulo');
       .container {
         flex: 1;
       }
-
-
-      /* Estilo da Navbar */
-      .navbar-custom {
-        background-color: rgba(235, 235, 235, 0.7);
-        color: grey;
-        padding: 2rem 1.5rem; /* Ajuste o padding para aumentar a altura */
-        box-shadow: 0 4px 9px rgba(20, 5, 10, 0.8); /* Sombra sutil na parte inferior */
-        font-size: 18px; 
-
-      }
-      
-      .navbar-brand {
-        color: #0B3861; 
-        font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
-      }
-
-      /* Ajuste do botão de login */
-      .navbar-custom .btn {
-        margin-top: 0.2rem; /* Ajusta a margem para alinhar verticalmente */
-        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
-        margin-right: 10px;
-        border-radius: 10px;        
-      }
-
-      @media (max-width: 1000px) {
-        .navbar-toggler-icon {
-          border-left: 8px solid transparent; /* Ajuste o tamanho da seta */
-          border-right: 8px solid transparent; /* Ajuste o tamanho da seta */
-          border-top: 8px solid grey; /* Cor da seta */
-        }
-      }
-      .navbar-toggler-icon {
-        width: 0;
-        height: 0;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-top: 15px solid grey; /* Cor da seta */
-        background-color: transparent;
-      }
-
-      /* Jumbotron with background image */
-      .jumbotron-bg {
-        background-image: url('restrito/img/dog_cat.jpg'); /* Adicione o caminho da sua imagem */
-        background-size: cover;
-        background-position: center; 
-        background-repeat: no-repeat;
-        color: white;
-        margin: 0;
-        min-height: 600px; /* Define a altura mínima do jumbotron */
-        display: flex;
-        align-items: center; /* Centraliza o conteúdo verticalmente */
-        justify-content: center; /* Centraliza o conteúdo horizontalmente */
-      }
-
-      .jumbotron-bg h1, .jumbotron-bg p {
-        color: white;
-      }
-
 
       /* Ajuste do footer */
       footer {
@@ -134,36 +74,98 @@ date_default_timezone_set('America/Sao_Paulo');
         margin-bottom: 20px; /* Aumenta a margem para mais espaço */
       }
 
-      /* Estilo para as imagens dos cards */
-      .card-img-top {
-        height: 450px; /* Aumenta a altura das imagens */
-        object-fit: cover;
+
+        .content {
+            flex: 1;
+        }
+
+
+      
+
+     /* Estilo da Navbar */
+     .navbar-custom {
+        background-color: rgba(235, 235, 235, 0.7);
+        color: grey;
+        padding: 2rem 1.5rem; /* Ajuste o padding para aumentar a altura */
+        box-shadow: 0 4px 9px rgba(20, 5, 10, 0.8); /* Sombra sutil na parte inferior */
+        font-size: 18px; 
+
       }
 
-      /* Garantir que os cards ocupem o mesmo tamanho */
-      .card {
+      .navbar-brand {
+        color: #0B3861; 
+        font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+      }
+
+      /* Ajuste do botão de login */
+      .navbar-custom .btn {
+        margin-top: 0.2rem; /* Ajusta a margem para alinhar verticalmente */
+        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+        margin-right: 10px;
+        border-radius: 10px;        
+      }
+
+      @media (max-width: 768px) {
+        .navbar-toggler-icon {
+          border-left: 8px solid transparent; /* Ajuste o tamanho da seta */
+          border-right: 8px solid transparent; /* Ajuste o tamanho da seta */
+          border-top: 8px solid grey; /* Cor da seta */
+        }
+      }
+      .navbar-toggler-icon {
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid grey; /* Cor da seta */
+        background-color: transparent;
+      }
+
+        /* Caixa estilizada para o formulário */
+        .form-container {
+            background-color: #EBEBEB; /* Cinza claro */
+            border-radius: 10px; /* Bordas arredondadas */
+            padding: 30px; /* Espaçamento interno */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Botões com tamanho igual */
+        .btn-custom {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .box-gray {
+        background-color: rgba(235, 235, 235, 0.7);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+
+      }
+      /* Caixa cinza para o formulário */
+      .form-container {
+        background-color: rgba(235, 235, 235, 0.7);
+        padding: 32px;
+        border-radius: 8px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Botões do mesmo tamanho */
+      .btn-container {
         display: flex;
         flex-direction: column;
-        height: 100%;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-        transition: transform 0.3s ease, box-shadow 0.3s ease
+        gap: 15px; /* Espaço entre os botões */
       }
-      .card:hover {
-      transform: scale(1.05); /* Aumenta o tamanho do card em 5% */
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra quando o mouse está sobre o card */
+      
+      .btn-container .btn {
+        width: 100%;
       }
-
-      .card-body {
-        flex: 1 0 auto;
-      }
-
     </style>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-custom">
-      <a class="navbar-brand" href="index.php">
-      <img src="restrito/img/iconpet.png" style="height: 75px;">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+      <a class="navbar-brand" href="../index.php">
+      <img src="img/iconpet.png" style="height: 75px;">
         <b><i>ADOPT PET</i></b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -171,7 +173,7 @@ date_default_timezone_set('America/Sao_Paulo');
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Página Inicial</a>
+            <a class="nav-link" href="../index.php">Página Inicial</a>
           </li>
           <?php if (isset($_SESSION['cuidador_id'])): ?>
             <li class="nav-item dropdown">
@@ -179,8 +181,8 @@ date_default_timezone_set('America/Sao_Paulo');
                 Pesquisar
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownPesquisar">
-                <a class="dropdown-item" href="restrito/pesquisa_adotante.php">Pesquisar Adotante</a>
-                <a class="dropdown-item" href="restrito/pesquisa_cuidador.php">Pesquisar Cuidador</a>
+                <a class="dropdown-item" href="pesquisa_adotante.php">Pesquisar Adotante</a>
+                <a class="dropdown-item" href="pesquisa_cuidador.php">Pesquisar Cuidador</a>
               </div>
             </li>
           <?php endif; ?>
@@ -192,9 +194,9 @@ date_default_timezone_set('America/Sao_Paulo');
                 Cadastro
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownCadastro">
-                <a class="dropdown-item" href="restrito/cadastro_adotante.php">Cadastro Adotante</a>
+                <a class="dropdown-item" href="cadastro_adotante.php">Cadastro Adotante</a>
                 <?php if (isset($_SESSION['cuidador_id'])): ?>
-                  <a class="dropdown-item" href="restrito/cadastro_cuidador.php">Cadastro Cuidador</a>
+                  <a class="dropdown-item" href="cadastro_cuidador.php">Cadastro Cuidador</a>
                 <?php endif; ?>
               </div>
             </li>
@@ -206,7 +208,7 @@ date_default_timezone_set('America/Sao_Paulo');
                 Pets
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownAdotarPet">
-                <a class="dropdown-item" href="restrito/pesquisa_pet.php">Lista de Pets</a>
+                <a class="dropdown-item" href="pesquisa_pet.php">Lista de Pets</a>
               </div>
             </li>
           <?php endif; ?>
@@ -216,7 +218,7 @@ date_default_timezone_set('America/Sao_Paulo');
                 Incluir Pet
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownDoarPet">
-                <a class="dropdown-item" href="restrito/cadastro_pet.php">Inserir pet para adoção</a>
+                <a class="dropdown-item" href="cadastro_pet.php">Inserir pet para adoção</a>
               </div>
             </li>
           <?php endif; ?>
@@ -225,7 +227,7 @@ date_default_timezone_set('America/Sao_Paulo');
               Abrigos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownSobre">
-              <a class="dropdown-item" href="restrito/abrigos.php">Lista de Abrigos</a>
+              <a class="dropdown-item" href="abrigos.php">Lista de Abrigos</a>
             </div>
           </li>
         <li class="nav-item dropdown">
@@ -233,61 +235,66 @@ date_default_timezone_set('America/Sao_Paulo');
               Dashboard
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownSobre">
-              <a class="dropdown-item" href="restrito/dashboard.php">Dashboard</a>
+              <a class="dropdown-item" href="dashboard.php">Dashboard</a>
             </div>
           </li>
         </ul>
         
         <?php if (isset($_SESSION['adotante_id']) || isset($_SESSION['cuidador_id'])): ?>
-          <a class="btn btn-primary ml-md-3" href="restrito/logout.php">Sair</a>
+          <a class="btn btn-primary ml-md-3" href="logout.php">Sair</a>
         <?php else: ?>
           <div class="btn-group ml-md-3">
-            <a class="btn btn-primary" href="restrito/login_adotante.php">Login Adotante</a>
-            <a class="btn btn-primary" href="restrito/login_cuidador.php">Login Cuidador</a>
+            <a class="btn btn-primary" href="login_adotante.php">Login Adotante</a>
+            <a class="btn btn-primary" href="login_cuidador.php">Login Cuidador</a>
           </div>
         <?php endif; ?>
         
       </div>
     </nav>
-
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-bg text-center">
-      <div class="container">
-        <h1 class="display-4"><b>ADOPT PET</b></h1>
-        <p class="lead"></p>
-      </div>
+    <!-- Formulário de Cadastro -->
+    <!-- Formulário de Cadastro -->
+    <div class="container mt-5 content">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="form-container">
+                <h1 class="text-center">Cadastro Cuidador</h1>
+                <form action="processacadastro_cuidador.php" method="POST">
+                    <div class="form-group">
+                        <label for="CPF">CPF:</label>
+                        <input type="text" class="form-control" name="CPF" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" class="form-control" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha:</label>
+                        <input type="password" class="form-control" name="senha" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="CODabri">Abrigo:</label>
+                      <select name="CODabri" id="CODabri" class="form-control">
+                          <option value="1">PetCenter</option>
+                          <option value="2">PetDeTodos</option>
+                      </select>
+                    </div>
+                    <div class="form-group text-center">
+                        <div class="btn-container">
+                          <input type="submit" class="btn btn-success" value="Cadastrar">
+                          <a href="../index.php" class="btn btn-primary">Voltar para o início</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> 
     </div>
+  </div>
 
-    <!-- Pets Section -->
-    <div class="container">
-      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <font color="#FFFFFF"><h1 class="display-4"><b>PETS ADOTADOS</b></h1></font>
-      <font color="#FFFFFF"><p class="lead"><b>Uma breve lista dos pets já adotados.</b></p></font>
-      </div>
-
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <img src="restrito/img/dog1.jpeg" class="card-img-top" alt="Jack">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Jack</h4>
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <img src="restrito/img/dog2.jpg" class="card-img-top" alt="Thor">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Thor</h4>
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <img src="restrito/img/cat1.jpg" class="card-img-top" alt="Steve">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Steve</h4>
-          </div>
-        </div>
-      </div>
-    </div> 
-
-  <footer>
+    <footer>
     <div class="footer-content">
         <div class="left">
             <p>&copy; 2024 ADOPT PET</p>
@@ -298,13 +305,12 @@ date_default_timezone_set('America/Sao_Paulo');
         <br>
         <h3><b>ADOPT PET</b></h3>
         <br>
-        <img src="restrito/img/iconpet.png" alt="Icone Pet" style="height: 150px; width: auto;">
+        <img src="img/iconpet.png" alt="Icone Pet" style="height: 150px; width: auto;">
     </div>
     </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap e JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
