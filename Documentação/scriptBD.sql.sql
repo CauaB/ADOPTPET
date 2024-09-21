@@ -1,5 +1,5 @@
 -- -----------------------------------------------------
--- Table `adoptpetv1`.`abrigo` OK
+-- Table `adoptpetv1`.`abrigo`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `adoptpetv1`.`abrigo` (
   `CODabrigo` VARCHAR(20) NOT NULL,
@@ -11,7 +11,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `adoptpetv1`.`pet` OK
+-- Table `adoptpetv1`.`pet`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `adoptpetv1`.`pet` (
   `CODpet` VARCHAR(20) NOT NULL,
@@ -31,7 +31,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `adoptpetv1`.`adotante` OK
+-- Table `adoptpetv1`.`adotante`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `adoptpetv1`.`adotante` (
   `CPF` VARCHAR(20) NOT NULL,
@@ -47,7 +47,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `adoptpetv1`.`adocao` OK
+-- Table `adoptpetv1`.`adocao`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `adoptpetv1`.`adocao` (
   `CODadocao` INT(11) NOT NULL AUTO_INCREMENT,
@@ -87,7 +87,7 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `adoptpetv1`.`trabalhar` OK
+-- Table `adoptpetv1`.`trabalhar`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `adoptpetv1`.`trabalhar` (
   `CODabrigo` VARCHAR(20) NOT NULL,
