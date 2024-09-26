@@ -19,8 +19,6 @@ O sistema é uma aplicação web voltada para a gestão e facilitação do proce
 
 [![Xampp](https://img.shields.io/badge/-Xampp-FF4500?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org/index.html)
 
-[![MySQL](https://img.shields.io/badge/-MySQL-001F3F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-
 [![Bootstrap](https://img.shields.io/badge/-Bootstrap-8A2BE2?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
 [![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
