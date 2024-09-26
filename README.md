@@ -130,3 +130,17 @@ CREATE TABLE IF NOT EXISTS `adoptpetv1`.`trabalhar` (
     ON DELETE CASCADE)
 ENGINE = InnoDB;
 ```
+
+Sistema
+![Página Inicial](imgread/home.png)
+
+![Cadastro Cuidador](imgread/cadastrocuidador.png)
+
+![Pesquisar Pet](imgread/pesquisarpet.png)
+
+![Dashboard](imgread/dash1.png)
+
+![Dashboard](imgread/dash2.png)
+
+
+
