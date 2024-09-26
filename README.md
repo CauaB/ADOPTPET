@@ -9,5 +9,8 @@ https://www.youtube.com/watch?v=bI6gdqveSB0&t=23s
 ## Modelo ER
 ![Texto Alternativo](Documentação/Modelo%20ER%20-%20ADOPTPET.png)
 
+## Modelo Lógico 
+![Texto Alternativo](Documentação/Modelo%20Logico%20-%20ADOPTPET.png)
+
 ## Apresentação do Projeto
 
