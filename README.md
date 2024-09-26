@@ -7,7 +7,7 @@ O sistema é uma aplicação web voltada para a gestão e facilitação do proce
 https://www.youtube.com/watch?v=bI6gdqveSB0&t=23s
 
 ## Modelo ER
-![Texto Alternativo](Documentação/Modelo ER - ADOPTPET.png)
+![Texto Alternativo](Documentação/Modelo%20ER%20-%20ADOPTPET.png)
 
 ## Apresentação do Projeto
 
