@@ -131,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `adoptpetv1`.`trabalhar` (
 ENGINE = InnoDB;
 ```
 
-Sistema
+## 💻 Breve Visualização:
 ![Página Inicial](imgread/home.png)
 
 ![Cadastro Cuidador](imgread/cadastrocuidador.png)
